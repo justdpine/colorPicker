@@ -1,6 +1,12 @@
 // export const bindEventListeners = () => {
 
 // }
+export const extractPickerHexValue = (event) => {
+    const colorValue = event.target.value;
+    console.log(colorValue);
+    sliderPicker.color.hexString = event.target.value;
+  }
+
 export const dragElement = (elmnt) => {
     let pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
     if (document.getElementById(elmnt.id + "header")) {

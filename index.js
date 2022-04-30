@@ -1,4 +1,4 @@
-import { dragElement } from './modules/utilities.js'
+import { dragElement, extractPickerHexValue } from './modules/utilities.js'
 
 const dragElementObj = document.getElementById("drag-object")
 const hexInput = document.getElementById('hexInput');
@@ -37,11 +37,7 @@ sliderPicker.on(['color:init', 'color:change'], function(color){
   dragElementObj.style.backgroundColor = hexString;
 });
 
-hexInput.addEventListener('change', function() {
-  const colorValue = this.value;
-  console.log(colorValue);
-  sliderPicker.color.hexString = this.value;
-});
+hexInput.addEventListener('change', extractPickerHexValue);
 
 // drag and drop script
 
