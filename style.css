@@ -1,0 +1,35 @@
+#color-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background-color: grey;
+    border: solid black 2px;
+    width: 250px;
+    height: 350px;
+  }
+  
+  .ColorPicker {
+    display: block;
+    padding-bottom: 25px;
+    padding-top: 10px;
+  /*   border: solid red 2px; */
+  }
+  
+  .color-view {
+    width: 100px;
+    height: 100px;
+    border: solid red 2px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  #drag-object {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+  } 
