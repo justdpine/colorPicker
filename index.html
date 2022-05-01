@@ -4,21 +4,44 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-      <div id="render-zone">
-          <div id='drag-object'>
-        <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
-          <p>click, drag, move</p>
-        </div>
-    </div>
-    <div id='color-card'>
-      <div class='color-view'>
-        <p>watch me change, bizzy</p>
+    <div class="container"> 
+
+      <div class="landingHeader">
       </div>
-      <input type='text' id="hexInput"></input>
-      <div class="ColorPicker" id="sliderPicker"></div>
-    </div>
-    <script type='module' src="/modules/utilities.js"></script>
-    <script type="module" src="index.js"></script>
+
+      <div class="colorObjectWindow">
+      </div>
+
+      <div class="sideBarMenu">
+      </div>
+
+      <div class="colorCardDashboard">
+        <div id='color-card'>
+          <div class='color-view'>
+            <p>watch me change, bizzy</p>
+          </div>
+          <input type='text' id="hexInput"></input>
+          <div class="ColorPicker" id="sliderPicker"></div>
+        </div>
+      </div>
+      
+      <div id="render-zone">
+        <div id='drag-object'>
+          <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+            <p>click, drag, move</p>
+        </div>
+      </div>
+      
+      <!-- <div id='color-card'>
+        <div class='color-view'>
+          <p>watch me change, bizzy</p>
+        </div>
+        <input type='text' id="hexInput"></input>
+        <div class="ColorPicker" id="sliderPicker"></div>
+      </div> -->
+    </div>  
+      <script type='module' src="/modules/utilities.js"></script>
+      <script type="module" src="index.js"></script>
   </body>
 </html>
 
