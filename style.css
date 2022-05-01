@@ -1,19 +1,33 @@
+  * {
+    margin: 0%;
+  }
+  .container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 4% 75% 21%; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "landingHeader landingHeader landingHeader landingHeader"
+      "colorObjectWindow colorObjectWindow colorObjectWindow sideBarMenu"
+      "colorCardDashboard colorCardDashboard colorCardDashboard sideBarMenu"; 
+    width: 100vw;
+    height: 100vh;
+  }
+
 #color-card {
     display: flex;
     flex-direction: column;
     justify-content: end;
     align-items: center;
     background-color: grey;
-    border: solid black 2px;
-    width: 250px;
-    height: 350px;
+    width: 20%;
+    height: 100%;
   }
   
   .ColorPicker {
     display: block;
     padding-bottom: 25px;
     padding-top: 10px;
-  /*   border: solid red 2px; */
   }
   
   .color-view {
@@ -33,3 +47,24 @@
     align-items: center;
     position: absolute;
   } 
+
+  .landingHeader {
+    grid-area: landingHeader;
+    background-color: rgb(154, 140, 140);
+  }
+
+  .colorObjectWindow {
+    grid-area: colorObjectWindow;
+    background-color: rgb(164, 117, 117);
+  }
+
+  .sideBarMenu {
+    grid-area: sideBarMenu;
+    background-color: grey;
+  }
+
+  .colorCardDashboard {
+    grid-area: colorCardDashboard;
+    display: flex;
+    background-color: rgb(208, 205, 205);
+  }
