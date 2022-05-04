@@ -1,16 +1,17 @@
 // export const bindEventListeners = () => {
 
 // }
-export const extractPickerHexValue = (event) => {
+export const extractPickerHexValue = (event, mainColorValue, sliderPicker) => {
     const colorValue = event.target.value;
-    console.log(colorValue);
-    sliderPicker.color.hexString = event.target.value;
+    mainColorValue = colorValue
+    console.log(mainColorValue);
+    sliderPicker.color.hexString = mainColorValue;
   }
 
 export const dragElement = (elmnt) => {
     let pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-    if (document.getElementById(elmnt.id + "header")) {
-      document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+    if (document.getElementById(elmnt.id + "nucleus")) {
+      document.getElementById(elmnt.id + "nucleus").onmousedown = dragMouseDown;
     } else {
       // otherwise, move the DIV from anywhere inside the DIV:
       elmnt.onmousedown = dragMouseDown;
