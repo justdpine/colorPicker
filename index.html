@@ -2,22 +2,12 @@
   <head>
     <script src="https://cdn.jsdelivr.net/npm/@jaames/iro@5"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
   </head>
   <body>
-    <!-- this is a note -->
-      <div id="render-zone">
-          <div id='drag-object'>
-        <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
-          <p>click, drag, move</p>
-        </div>
-    </div>
-    <div id='color-card'>
-      <div class='color-view' id="cardSwatch" onclick="clickCard()">
-        <p>watch me change, bizzy</p>
-      </div>
-      <input type='text' id="hexInput"></input>
-      <div class="ColorPicker" id="sliderPicker"></div>
-    </div>
+   
     
 
 
@@ -27,21 +17,22 @@
 
   <div id='colorSelector'>
       <select id="selectorDropdown">
-      
-          <option value="default" >Pick a Vibe</option>
+       
+          <option value="default" class="options">Add a Color, Vibe, or Description to Start</option>
           
-          <option value="sadBlue" >Sad</option>
+          <option value="sadBlue" class="options" >Sad</option>
           
-          <option value="happyYellow" >Happy</option>
+          <option value="happyYellow" class="options">Happy</option>
           
-          <option value="freshGreen" >Fresh</option>
+          <option value="freshGreen" class="options" >Fresh</option>
+        
       
       </select>
   </div>
 
 
   <div id="swatches">
-      <p class="label">Lights</p>
+      <p class="label">Trending Palettes:</p>
       <div id="light ">
           
           <div class='color-block' id='a1'>
@@ -79,20 +70,24 @@
 
           <div class='color-block' id='a12'>
               </div>
+            
+            <div class='color-block' id='b1'>
+            </div>
+        
+        <div class='color-block' id='b2'>
+            </div>
+        
+        <div class='color-block' id='b3'>
+            </div>
 
       </div>
 
-      <p class="label">Mediums</p>
+
+      <p class="label">Suggested Swatches:</p>
+    
       <div id="medium">
           
-          <div class='color-block' id='b1'>
-              </div>
           
-          <div class='color-block' id='b2'>
-              </div>
-          
-          <div class='color-block' id='b3'>
-              </div>
           
           <div class='color-block' id='b4'>
               </div>
@@ -121,31 +116,29 @@
           <div class='color-block' id='b12'>
               </div>
 
-          </div>
-      
 
-          <p class="label">Darks</p>
-          <div id="medium">
-              
-              <div class='color-block' id='c1'>
-                  </div>
-              
-              <div class='color-block' id='c2'>
-                  </div>
-              
-              <div class='color-block' id='c3'>
-                  </div>
-              
-              <div class='color-block' id='c4'>
-                  </div>
+          <div class='color-block' id='c1'>
+            </div>
+    
+        <div class='color-block' id='c2'>
+            </div>
+        
+        <div class='color-block' id='c3'>
+            </div>
+        
+        <div class='color-block' id='c4'>
+            </div>
 
-              <div class='color-block' id='c5'>
-                  </div>
+        <div class='color-block' id='c5'>
+            </div>
 
-              <div class='color-block' id='c6'>
-                  </div>
+        <div class='color-block' id='c6'>
+            </div>
+         
+        </div>
+              
 
-              <div class='color-block' id='c7'>
+              <!-- <div class='color-block' id='c7'>
                   </div>
 
               <div class='color-block' id='c8'>
@@ -161,13 +154,8 @@
                   </div>
 
               <div class='color-block' id='c12'>
-                  </div>
-
-              </div>
-
+                  </div> -->
       
-      
-
   </div>
 
 

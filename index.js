@@ -42,12 +42,12 @@ const c33 = document.querySelector('#c3');
 const c44 = document.querySelector('#c4');
 const c55 = document.querySelector('#c5');
 const c66 = document.querySelector('#c6');
-const c77 = document.querySelector('#c7');
-const c88 = document.querySelector('#c8');
-const c99 = document.querySelector('#c9');
-const c110 = document.querySelector('#c10');
-const c111 = document.querySelector('#c11');
-const c112 = document.querySelector('#c12');
+// const c77 = document.querySelector('#c7');
+// const c88 = document.querySelector('#c8');
+// const c99 = document.querySelector('#c9');
+// const c110 = document.querySelector('#c10');
+// const c111 = document.querySelector('#c11');
+// const c112 = document.querySelector('#c12');
 
 const mainPalatte = {
   sadBlue: {
@@ -81,12 +81,12 @@ const mainPalatte = {
     c4: "#767E9B",
     c5: "#767E9B",
     c6: "#767E9B",
-    c7: "#767E9B",
-    c8: "#767E9B",
-    c9: "#767E9B",
-    c10: "#767E9B",
-    c11: "#767E9B",
-    c12: "#767E9B",
+    // c7: "#767E9B",
+    // c8: "#767E9B",
+    // c9: "#767E9B",
+    // c10: "#767E9B",
+    // c11: "#767E9B",
+    // c12: "#767E9B",
   }, 
   happyYellow: {
     a1: "#CACDDC",
@@ -121,12 +121,12 @@ const mainPalatte = {
 	c4: "",
     c5: "",
     c6: "",
-    c7: "",
-    c8: "",
-    c9: "",
-    c10: "",
-    c11: "",
-    c12: "",
+    // c7: "",
+    // c8: "",
+    // c9: "",
+    // c10: "",
+    // c11: "",
+    // c12: "",
   }, 
   freshGreen: {
     a1: "#CACDDC",
@@ -161,52 +161,52 @@ const mainPalatte = {
     c4: "",
       c5: "",
       c6: "",
-      c7: "",
-      c8: "",
-      c9: "",
-      c10: "",
-      c11: "",
-      c12: "", 
+      // c7: "",
+      // c8: "",
+      // c9: "",
+      // c10: "",
+      // c11: "",
+      // c12: "", 
   }, 
   pickAVibe: {
-    a1: "#C9E1CA",
-	a2: "#C9E1DA", 
-	a3: "#C9D3E1",
-	a4: "#C9CBE1",
-    a5: "#D4C9E1",
-    a6: "#DCC9E1",
-    a7: "#E1C9DA",
-    a8: "#E1CCC9",
-    a9: "#E1D7C9",
-    a10: "#E1E0C9",
-    a11: "#DEE1C9",
-    a12: "#D7E1C9",
+    a1: "#042940",
+	a2: "#048175", 
+	a3: "#B4db37",
+	a4: "#dbf227",
+    a5: "#82d99f",
+    a6: "#5d9ca3",
+    a7: "#25636a",
+    a8: "#e3e3ba",
+    a9: "#edc5b7",
+    a10: "#f48d69",
+    a11: "#ff6e6e",
+    a12: "#d8655b",
 
-	b1: "#7A9A7B",
-	b2: "#689A8B", 
-	b3: "#476696",
-	b4: "#434983",
-    b5: "#633D94",
-    b6: "#893D9C",
-    b7: "#87296D",
-    b8: "#823429",
-    b9: "#92631D",
-    b10: "#8A8623",
-    b11: "#7D8B23",
-    b12: "#5C8E1C",
+	b1: "#bf1304",
+	b2: "#a62b1f", 
+	b3: "#730202",
+	b4: "#f59595",
+    b5: "#f85353",
+    b6: "#ca0909",
+    b7: "#f4851e",
+    b8: "#f7a960",
+    b9: "#f5dd88",
+    b10: "#fed74c",
+    b11: "#fff856",
+    b12: "#ddff56",
 
-	c1: "#2E472F",
-	c2: "#1E483C", 
-	c3: "#192B46",
-	c4: "#0D1242",
-    c5: "#250F41",
-    c6: "#2F0E37",
-    c7: "#2F0924",
-    c8: "#2F0F0A",
-    c9: "#34230A",
-    c10: "#343209",
-    c11: "#32380A",
-    c12: "#203308",
+	c1: "#8ff26c",
+	c2: "#6cf2a2", 
+	c3: "#4fdebc",
+	c4: "#1eba94",
+    c5: "#1e9eba",
+    c6: "#0d87a1",
+    // c7: "#2F0924",
+    // c8: "#2F0F0A",
+    // c9: "#34230A",
+    // c10: "#343209",
+    // c11: "#32380A",
+    // c12: "#203308",
   }
 }
 
@@ -243,12 +243,12 @@ const sadBlue = {
 	c4: "#767E9B",
     c5: "#767E9B",
     c6: "#767E9B",
-    c7: "#767E9B",
-    c8: "#767E9B",
-    c9: "#767E9B",
-    c10: "#767E9B",
-    c11: "#767E9B",
-    c12: "#767E9B",
+    // c7: "#767E9B",
+    // c8: "#767E9B",
+    // c9: "#767E9B",
+    // c10: "#767E9B",
+    // c11: "#767E9B",
+    // c12: "#767E9B",
 };
 
 const happyYellow = {
@@ -284,12 +284,12 @@ const happyYellow = {
 	c4: "",
     c5: "",
     c6: "",
-    c7: "",
-    c8: "",
-    c9: "",
-    c10: "",
-    c11: "",
-    c12: "",
+    // c7: "",
+    // c8: "",
+    // c9: "",
+    // c10: "",
+    // c11: "",
+    // c12: "",
 };
 
 const freshGreen = {
@@ -325,57 +325,57 @@ const freshGreen = {
 	c4: "",
     c5: "",
     c6: "",
-    c7: "",
-    c8: "",
-    c9: "",
-    c10: "",
-    c11: "",
-    c12: "",
+    // c7: "",
+    // c8: "",
+    // c9: "",
+    // c10: "",
+    // c11: "",
+    // c12: "",
 };
 
 const pickAVibe = {
-	a1: "#C9E1CA",
-	a2: "#C9E1DA", 
-	a3: "#C9D3E1",
-	a4: "#C9CBE1",
-    a5: "#D4C9E1",
-    a6: "#DCC9E1",
-    a7: "#E1C9DA",
-    a8: "#E1CCC9",
-    a9: "#E1D7C9",
-    a10: "#E1E0C9",
-    a11: "#DEE1C9",
-    a12: "#D7E1C9",
+	a1: "#042940",
+	a2: "#048175", 
+	a3: "#B4db37",
+	a4: "#dbf227",
+    a5: "#82d99f",
+    a6: "#5d9ca3",
+    a7: "#25636a",
+    a8: "#e3e3ba",
+    a9: "#edc5b7",
+    a10: "#f48d69",
+    a11: "#ff6e6e",
+    a12: "#d8655b",
 
-	b1: "#7A9A7B",
-	b2: "#689A8B", 
-	b3: "#476696",
-	b4: "#434983",
-    b5: "#633D94",
-    b6: "#893D9C",
-    b7: "#87296D",
-    b8: "#823429",
-    b9: "#92631D",
-    b10: "#8A8623",
-    b11: "#7D8B23",
-    b12: "#5C8E1C",
+	b1: "#bf1304",
+	b2: "#a62b1f", 
+	b3: "#730202",
+	b4: "#f59595",
+    b5: "#f85353",
+    b6: "#ca0909",
+    b7: "#f4851e",
+    b8: "#f7a960",
+    b9: "#f5dd88",
+    b10: "#fed74c",
+    b11: "#fff856",
+    b12: "#ddff56",
 
-	c1: "#2E472F",
-	c2: "#1E483C", 
-	c3: "#192B46",
-	c4: "#0D1242",
-    c5: "#250F41",
-    c6: "#2F0E37",
-    c7: "#2F0924",
-    c8: "#2F0F0A",
-    c9: "#34230A",
-    c10: "#343209",
-    c11: "#32380A",
-    c12: "#203308",
+	c1: "#8ff26c",
+	c2: "#6cf2a2", 
+	c3: "#4fdebc",
+	c4: "#1eba94",
+    c5: "#1e9eba",
+    c6: "#0d87a1",
+    // c7: "#2F0924",
+    // c8: "#2F0F0A",
+    // c9: "#34230A",
+    // c10: "#343209",
+    // c11: "#32380A",
+    // c12: "#203308",
 };
 
 const colorBox = (userSelection) => {
-	const { a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, c11, c12} = userSelection;
+	const { a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, c1, c2, c3, c4, c5, c6} = userSelection;
 
 	aa1.style.backgroundColor = a1;
   aa1.dataset.backgroundColor = a1;
@@ -414,12 +414,12 @@ const colorBox = (userSelection) => {
 	c44.style.backgroundColor = c4;
     c55.style.backgroundColor = c5;
     c66.style.backgroundColor = c6;
-    c77.style.backgroundColor = c7;
-    c88.style.backgroundColor = c8;
-    c99.style.backgroundColor = c9;
-    c110.style.backgroundColor = c10;
-    c111.style.backgroundColor = c11;
-    c112.style.backgroundColor = c12;
+    // c77.style.backgroundColor = c7;
+    // c88.style.backgroundColor = c8;
+    // c99.style.backgroundColor = c9;
+    // c110.style.backgroundColor = c10;
+    // c111.style.backgroundColor = c11;
+    // c112.style.backgroundColor = c12;
     
 
 };
