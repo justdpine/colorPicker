@@ -7,31 +7,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
   </head>
   <body>
-   
-    
-
-
-<!-- begin wendy's code -->
-<div id="background">
-
-
-  <div id='colorSelector'>
-      <select id="selectorDropdown">
-       
+  
+  <div id="background">
+    <div id='colorSelector'>
+       <select id="selectorDropdown">
           <option value="default" class="options">Add a Color, Vibe, or Description to Start</option>
-          
           <option value="sadBlue" class="options" >Sad</option>
-          
           <option value="happyYellow" class="options">Happy</option>
-          
           <option value="freshGreen" class="options" >Fresh</option>
-        
-      
       </select>
   </div>
 
 
-  <div id="swatches">
+    <div id="swatches">
       <p class="label">Trending Palettes:</p>
       <div id="light ">
           
@@ -161,8 +149,33 @@
 
 </div>
 
-<!-- end wendy's code -->
-<script type='module' src="/modules/utilities.js"></script>
+    <div class="container"> 
+
+      <div class="landingHeader">
+      </div>
+
+      <div class="colorObjectWindow">
+      </div>
+
+      <div class="sideBarMenu">
+      </div>
+
+      <div class="colorCardDashboard">
+        <div id='color-card'>
+        <div class='color-view'>
+          <input type='text' id="hexInput"></input>
+        </div>
+          <div class="ColorPicker" id="sliderPicker"></div>
+        </div>
+      </div>
+      
+      <div id="render-zone">
+          <div id='drag-object'>
+            <div id="drag-objectnucleus"></div>
+          </div>
+      </div>
+
+    <script type='module' src="/modules/utilities.js"></script>
     <script type="module" src="index.js"></script>
   </body>
 </html>
