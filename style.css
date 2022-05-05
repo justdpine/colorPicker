@@ -1,3 +1,8 @@
+
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
   * {
     margin: 0%;
   }
@@ -60,6 +65,192 @@
     resize: both;
     overflow: auto;
   } 
+
+  /* begin wendy's css */
+
+  
+
+  .color-selector {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  #selectorDropdown{
+    position:absolute;
+    left:5%;
+      border-radius: 5px;
+      border: none;
+      color: #686868;
+      width: 90%;
+      margin-top: 50px;
+      text-align:center;
+      font-family: 'Poppins', sans-serif;   
+  }
+
+
+  .options{
+    font-family: 'Poppins', sans-serif;
+  }
+
+  #swatches{
+      position:absolute;
+    margin-top:100px;
+   
+  }
+
+  .color-block {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin-left: 7%;
+    margin-top: 5%;
+    /* border: 3px solid black; */
+    border-radius: 5px;
+    background-color:white;
+    box-sizing: border-box;
+    
+  }
+
+  .color-block:hover{
+      border:#ffffff 3px solid;
+      
+  }
+
+  .topBlock{
+        height: 100px;
+        width: 100px;
+        display: inline-block;
+        margin-left: 100px;
+        margin-top: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color:white;
+  }
+
+
+  #background{
+    background-color:#E5E5E5;
+    min-height: 100%;
+    position: relative;
+    width:40%;
+}
+
+.label{
+    margin-left:5%;
+}
+
+#a1{
+     background-color:#042940;
+    }
+#a2 {
+    background-color: #048175;
+} 
+#a3{
+    background-color: #B4db37;
+} 
+#a4{
+    background-color: #dbf227;
+} 
+#a5{
+    background-color:#82d99f;
+} 
+#a6{
+    background-color: #5d9ca3;
+} 
+#a7{
+    background-color:#25636a;
+} 
+#a8{
+    background-color: #e3e3ba;
+} 
+#a9{
+    background-color: #edc5b7;
+} 
+#a10{
+    background-color: #f48d69;
+} 
+#a11{
+    background-color: #ff6e6e;
+} 
+#a12{
+    background-color: #d8655b;
+} 
+
+#b1{
+    background-color: #bf1304;
+} 
+#b2{
+    background-color: #a62b1f;
+}  
+#b3{
+    background-color: #730202;
+} 
+#b4{
+    background-color: #f59595;
+}
+#b5{
+    background-color: #f85353;
+} 
+#b6{
+    background-color: #ca0909;
+} 
+#b7{
+    background-color: #f4851e;
+} 
+#b8{
+    background-color: #f7a960;
+} 
+#b9{
+    background-color: #f5dd88;
+} 
+#b10{
+    background-color: #fed74c;
+} 
+#b11{
+    background-color: #fff856;
+} 
+#b12{
+    background-color: #ddff56;
+} 
+
+#c1{
+    background-color: #8ff26c;
+} 
+#c2{
+    background-color: #6cf2a2;
+} 
+#c3{
+    background-color: #4fdebc;
+} 
+#c4{
+    background-color: #1eba94;
+} 
+#c5{
+    background-color: #1e9eba;
+} 
+#c6{
+    background-color: #0d87a1;
+} 
+/* #c7{
+    background-color: #2F0924;
+} 
+#c8{
+    background-color:#2F0F0A;
+} 
+#c9{
+    background-color:#34230A;
+} 
+#c10{
+    background-color:#343209;
+} 
+#c11{
+    background-color: #32380A;
+} 
+#c12{
+    background-color: #203308;
+} */
+
+/* end wendy's css */
 
   #drag-objectnucleus {
     height: 25px;
