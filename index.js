@@ -1,10 +1,11 @@
 import { dragElement, extractPickerHexValue } from './modules/utilities.js'
-import { dropDown, dragElementObj, hexInput, colorView, aa1, a22, a33, a44, a55, a66, a77, a88, a99, a110, a111, a112, bb1, b22, b33, b44, b55, b66, b77, b88, b99, b110, b111, b112, cc1, c22, c33, c44, c55, c66, c77, c88, c99, c110, c111, c112 } from './modules/querySelections.js'
+import { colorSquare, dropDown, dragElementObj, hexInput, colorView, aa1, a22, a33, a44, a55, a66, a77, a88, a99, a110, a111, a112, bb1, b22, b33, b44, b55, b66, b77, b88, b99, b110, b111, b112, cc1, c22, c33, c44, c55, c66, c77, c88, c99, c110, c111, c112 } from './modules/querySelections.js'
 import { mainPalatte } from './modules/colorPalettes.js'
 
 
 // variables //
 let mainColorValue = ""
+let userSelectedCard1 = false
 const { sadBlue, happyYellow, freshGreen, pickAVibe } = mainPalatte
 
 const colorBox = (userSelection) => {
@@ -115,17 +116,31 @@ sliderPicker.on(['color:init', 'color:change'], function (color) {
 });
 
 hexInput.addEventListener('change', (event) => extractPickerHexValue(event, mainColorValue, sliderPicker));
+colorView.addEventListener('click', (event) => {
+  if (userSelectedCard1 === false) {
+    userSelectedCard1 = true
+  } else if (userSelectedCard1 === true) {
+    userSelectedCard1 = false
+  }
+  console.log(`userSelectedCard1 state: ${userSelectedCard1}`)
+});
+
 
 dragElement(dragElementObj);
 
-// swatchesContainer.addEventListener('click', (event) => {
-//   const dropDownValue = document.querySelector('#selectorDropdown').value;
-//   const id = event.target.id;
-//   const colorCombo = `${dropDownValue}.${id}`
-//   console.log(mainPalatte[dropDownValue][id])
-  // I.E.
-  // mainPalatte.sadBlue.a1
-// });
+swatchesContainer.addEventListener('click', (event) => {
+  // first read user selected car 1 state
+  // if true, then when user selects swatch pipe to hexInput.value
+  // then, set userSelectedCard1 = false;
+  if (userSelectedCard1 === true) {
+    const id = event.target.id;
+    // I.E.
+    //   mainPalatte.sadBlue.a1
+    const colorCombo = mainPalatte[dropDownValue][id]
+    hexInput.value = colorCombo
+  }
+
+});
 
 
 // end wendy's js

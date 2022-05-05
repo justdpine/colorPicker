@@ -6,6 +6,8 @@ export const colorView = document.querySelector('.color-view');
 
 // wendy's js//
 export const dropDown = document.querySelector('#colorSelector');
+// palette box colorcard switch function test
+export const colorSquare = document.querySelectorAll('div.color-block');
 
 
 export const aa1 = document.querySelector('#a1');
