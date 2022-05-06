@@ -47,3 +47,15 @@ export const dragElement = (elmnt) => {
     document.onmousemove = null;
   }
 }
+// radial gradient exp
+export const setGradient = (dragElementObj, mainColorValue) => {
+  console.log('hi')
+  dragElementObj.style.background =
+    `radial-gradient(circle at 50% 50%, ${mainColorValue} 0%, #FFFFFF 100%)`
+  // "linear-gradient(to right, " 
+  // + color1.value 
+  // + ", " 
+  // + color2.value 
+  // + ")";
+  // css.textContent = body.style.background + ";";
+}

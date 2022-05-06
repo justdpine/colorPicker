@@ -311,7 +311,7 @@ p {
 
 .colorObjectWindow {
     grid-area: colorObjectWindow;
-    background-color: rgb(164, 117, 117);
+    background-color: rgb(255, 255, 255);
 }
 
 .sideBarMenu {

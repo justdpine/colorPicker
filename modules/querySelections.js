@@ -2,13 +2,14 @@
 export const dragElementObj = document.getElementById("drag-object")
 export const hexInput = document.getElementById('hexInput');
 export const colorView = document.querySelector('.color-view');
+export const selectPaletteElement = document.querySelector('#selectorDropdown')
 
 
 // wendy's js//
 export const dropDown = document.querySelector('#colorSelector');
 // palette box colorcard switch function test
 export const colorSquare = document.querySelectorAll('div.color-block');
-
+export const swatchesContainer = document.querySelector('#swatches')
 
 export const aa1 = document.querySelector('#a1');
 export const a22 = document.querySelector('#a2');
