@@ -33,29 +33,17 @@ const colorBox = (userSelection) => {
   b66.style.backgroundColor = b6;
   b77.style.backgroundColor = b7;
   b88.style.backgroundColor = b8;
-  b99.style.backgroundColor = b5;
-  b10.style.backgroundColor = b6;
-  b77.style.backgroundColor = b7;
-  b88.style.backgroundColor = b8;
   b99.style.backgroundColor = b9;
-  b10.style.backgroundColor = b10;
+  b110.style.backgroundColor = b10;
   b111.style.backgroundColor = b11;
   b112.style.backgroundColor = b12;
-
+  
   cc1.style.backgroundColor = c1;
   c22.style.backgroundColor = c2;
   c33.style.backgroundColor = c3;
   c44.style.backgroundColor = c4;
   c55.style.backgroundColor = c5;
   c66.style.backgroundColor = c6;
-  // c77.style.backgroundColor = c7;
-  // c88.style.backgroundColor = c8;
-  // c99.style.backgroundColor = c9;
-  // c110.style.backgroundColor = c10;
-  // c111.style.backgroundColor = c11;
-  // c112.style.backgroundColor = c12;
-
-
 };
 
 
@@ -152,7 +140,5 @@ swatchesContainer.addEventListener('click', (event) => {
 
 });
 
-
-// end wendy's js
 
 

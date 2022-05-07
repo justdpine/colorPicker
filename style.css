@@ -67,10 +67,6 @@ p {
     overflow: auto;
 }
 
-/* begin wendy's css */
-
-
-
 .color-selector {
     display: inline-block;
     vertical-align: top;
@@ -96,7 +92,6 @@ p {
 #swatches {
     position: absolute;
     margin-top: 100px;
-
 }
 
 .color-block {
@@ -109,12 +104,10 @@ p {
     border-radius: 5px;
     background-color: white;
     box-sizing: border-box;
-
 }
 
 .color-block:hover {
     border: #ffffff 3px solid;
-
 }
 
 .topBlock {
@@ -137,8 +130,10 @@ p {
 }
 
 .label {
+    margin-top:10px;
     margin-left: 5%;
 }
+
 
 #a1 {
     background-color: #042940;
@@ -260,26 +255,6 @@ p {
     background-color: #0d87a1;
 }
 
-/* #c7{
-    background-color: #2F0924;
-} 
-#c8{
-    background-color:#2F0F0A;
-} 
-#c9{
-    background-color:#34230A;
-} 
-#c10{
-    background-color:#343209;
-} 
-#c11{
-    background-color: #32380A;
-} 
-#c12{
-    background-color: #203308;
-} */
-
-/* end wendy's css */
 
 #drag-objectnucleus {
     height: 25px;
