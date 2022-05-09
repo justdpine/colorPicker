@@ -138,6 +138,8 @@ swatchesContainer.addEventListener('click', (event) => {
     hexInput.value = colorCombo
   }
 
+
+
 });
 
 
